@@ -8,7 +8,7 @@ namespace MiPrimeraAplicacionWeb.Models
 {
     public class LugarCLS
     {
-        [Display(Name = "Id de Lugar")]
+        [Display(Name = "Identificación de Lugar")]
         public int iidlugar { get; set; }
         [Required]
         [Display (Name ="Nombre de la ciudad")]

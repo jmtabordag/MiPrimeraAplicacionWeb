@@ -1,0 +1,33 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model List<PersonaCLS>
+
+@{
+    ViewBag.Title = "Index";
+}
+@Html.ActionLink("Registrar","Crear",null,new {@class="btn btn-primary" })
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>@Html.LabelFor(p => Model[0].Nombre)</td>
+            <td>@Html.LabelFor(p => Model[0].Apellido)</td>
+            <td>@Html.LabelFor(p => Model[0].Cedula)</td>
+            <td>@Html.LabelFor(p => Model[0].Celular)</td>
+            <td>@Html.LabelFor(p => Model[0].TipoSangre)</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>@item.Apellido</td>
+                <td>@item.Cedula</td>
+                <td>@item.Celular</td>
+                <td>@item.TipoSangre</td>
+                
+            </tr>
+        }
+
+    </tbody>
+</table>
+

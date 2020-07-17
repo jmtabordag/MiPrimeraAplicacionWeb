@@ -1,0 +1,41 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model List<LugarCLS>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Gestión de Lugares</h2>
+@Html.ActionLink(" Adicionar ", "Adicionar", null, new {@class= "glyphicon glyphicon-plus btn btn-primary" })
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>@Html.LabelFor(p => Model[0].iidlugar)</td>
+            <td>@Html.LabelFor(p => Model[0].nombre)</td>
+            <td>@Html.LabelFor(p => Model[0].descripcion)</td>
+            <td>OPERACIONES</td>
+            
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <script src="~/Scripts/EsPar.js"></script>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.iidlugar</td>
+                <td>@item.nombre</td>
+                <td>@item.descripcion</td>
+                <td>
+                    @Html.ActionLink(" ", "Editar", new { id = item.iidlugar }, new { @class = "glyphicon glyphicon-edit btn btn-primary" })
+                    @Html.ActionLink(" ", "Editar", new { id = item.iidlugar }, new { @class = "glyphicon glyphicon-trash btn btn-primary" })
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+
+</table> 

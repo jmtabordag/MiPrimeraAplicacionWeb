@@ -1,0 +1,86 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model PersonaCLS
+@{
+    ViewBag.Title = "Crear";
+   
+
+  
+
+
+
+
+}
+
+<h2>Crear</h2>
+
+<div class="row">
+    <div class="col-md-6">
+
+        @using (Html.BeginForm("Crear", "InfoPersonal", FormMethod.Post))
+        {
+
+            <div>
+                @Html.LabelFor(p => p.Nombre)
+                @Html.TextBoxFor(p => p.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessage("Nombre", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                @Html.LabelFor(p => p.Apellido)
+                @Html.TextBoxFor(p => p.Apellido, new { @class = "form-control" })
+                @Html.ValidationMessage("Apellido", new { @class = "text-danger" })
+            </div>
+
+
+            <div>
+                @Html.LabelFor(p => p.Cedula)
+                @Html.TextBoxFor(p => p.Cedula, new { @class = "form-control" })
+                @Html.ValidationMessage("Cedula", new { @class = "text-danger" })
+            </div>
+
+
+            <div>
+                @Html.LabelFor(p => p.Celular)
+                @Html.TextBoxFor(p => p.Celular, new { @class = "form-control" })
+                @Html.ValidationMessage("Celular", new { @class = "text-danger" })
+            </div>
+
+         
+
+            <div>
+                @Html.LabelFor(p => p.TipoSangre)
+
+                @*@Html.DropDownList("idrh", ViewBag.ListRH as SelectList, "Seleccione Tipo de Sangre", new { id = "Value" })*@
+                @*@Html.DropDownListFor(x => x.TipoSangre, ViewBag.ListRH as SelectList, " ", new { id = "rh" })*@
+
+                @*@Html.DropDownListFor(x => x.TipoSangre, (SelectList)ViewBag.ListRH)*@
+
+                @try
+                {
+                    @Html.DropDownListFor(m => m.TipoSangre, (SelectList)ViewBag.ListRH, "Seleccionar", new { @class = "form-control" })
+
+
+                    @Html.ValidationMessage("sexo", new { @class = "text-danger" })
+                }
+                catch
+                {
+                    @Html.DropDownListFor(m => m.TipoSangre, (SelectList)ViewBag.ListRH, "Seleccionar", new { @class = "form-control" })
+                    @Html.ValidationMessage("rh", new { @class = "text-danger" })
+                }
+
+
+              
+            </div>
+
+
+            <br />
+            <div style="margin:auto">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+
+            </div>
+        }
+
+    </div>
+</div>
+
+<h1>ViewBag.Mensaje </h1>

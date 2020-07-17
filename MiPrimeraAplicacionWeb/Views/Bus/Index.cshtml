@@ -1,0 +1,38 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model List<BusCLS>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<br />
+<div>@Html.ActionLink("Adicionar","Adicionar",null,new {@class="btn btn-primary" })</div>
+<br />
+
+<table class="table table-responsive btn" >
+    <thead>
+        <tr>
+            <td>@Html.LabelFor(p=> Model[0].TipoBus)</td>
+            <td>@Html.LabelFor(p => Model[0].Descripcion)</td>
+            <td>@Html.LabelFor(p => Model[0].Placa)</td>
+            <td>@Html.LabelFor(p => Model[0].descModelo)</td>
+            <td>@Html.LabelFor(p => Model[0].fechaCompra)</td>
+            <td>@Html.LabelFor(p => Model[0].Sucursal)</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            <td>@item.TipoBus</td>
+            <td>@item.Descripcion</td>
+            <td>@item.Placa</td>
+            <td>@item.descModelo</td>
+            <td>@item.fechaCompra</td>
+            <td>@item.Sucursal</td>
+        </tr>
+        }
+    </tbody>
+</table>
+

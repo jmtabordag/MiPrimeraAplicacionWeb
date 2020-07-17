@@ -1,0 +1,45 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model Suma
+@{
+    ViewBag.Title = "Sumar";
+}
+
+@using (Html.BeginForm("Sumar", "Automovil", FormMethod.Post))
+{
+
+    <div>
+        @Html.LabelFor(p => p.a)
+        @Html.TextBoxFor(p => p.a, new { @class = "form-control" })
+        @Html.ValidationMessage("a", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.LabelFor(p => p.b)
+        @Html.TextBoxFor(p => p.b, new { @class = "form-control" })
+        @Html.ValidationMessage("b", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        <input type="submit" class="btn btn-primary" value="Sumar" />
+    </div>
+
+    try
+    {
+        <p>el resultado es @Model.resultado</p>
+       
+    }
+    catch (System.NullReferenceException)
+    {
+
+    }
+
+  
+
+
+
+
+
+
+
+
+}

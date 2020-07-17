@@ -1,0 +1,42 @@
+﻿@using MiPrimeraAplicacionWeb.Models
+@model List<ClienteCLS>
+
+@{
+    ViewBag.Title = "Index";
+    <script src="~/Scripts/prueba.js"></script>
+  
+   
+}
+
+@Html.ActionLink("Adicionar","Adicionar",null,new {@class="btn btn-primary" })
+
+   
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <td width="5%">@Html.LabelFor(p => Model[0].iidcliente)</td>
+            <td width="25%">@Html.LabelFor(p => Model[0].nombre)</td>
+            <td width="25%">@Html.LabelFor(p => Model[0].appaterno)</td>
+            <td width="25%">@Html.LabelFor(p => Model[0].apmaterno)</td>
+            <td width="10%">@Html.LabelFor(p => Model[0].email)</td>
+            <td width="10%">@Html.LabelFor(p => Model[0].direccion)</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var item in Model)
+        {
+        <tr>
+            <td>@item.iidcliente</td>
+            <td>@item.nombre</td>
+            <td>@item.appaterno</td>
+            <td>@item.appaterno</td>
+            <td>@item.email</td>
+            <td>@item.direccion</td>  
+        </tr>
+        }
+    </tbody>
+
+</table>
+

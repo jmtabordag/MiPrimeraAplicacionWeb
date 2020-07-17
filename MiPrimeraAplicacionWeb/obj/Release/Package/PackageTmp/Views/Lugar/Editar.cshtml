@@ -1,12 +1,12 @@
 ﻿@using MiPrimeraAplicacionWeb.Models
 @model LugarCLS
 
+
 @{
-    ViewBag.Title = "Adicionar";
-    @ViewBag.Nombre
+    ViewBag.Title = "Editar";
 }
 
-<h2>Adicionar</h2>
+<h2>Editar</h2>
 
 @using (Html.BeginForm("Adicionar", "Lugar", FormMethod.Post))
 {
@@ -14,11 +14,11 @@
 
         <div class="col-md-6">
 
-        
+
             <div>
                 @Html.LabelFor(p => p.nombre)
                 @*@Html.TextBoxFor(p => p.nombre, new { @class = "form form-control" })*@
-                @Html.DropDownListFor(m => m.nombre, (SelectList)ViewBag.Nombre, "Seleccionar", new { @class = "form-control" })
+                @Html.DropDownListFor(m => m.nombre, (SelectList)ViewBag.Nombre,null, new { @class = "form-control" })
                 @Html.ValidationMessage("nombre", new { @class = "text-danger" })
             </div>
 
@@ -38,3 +38,4 @@
     </div>
 
 }
+

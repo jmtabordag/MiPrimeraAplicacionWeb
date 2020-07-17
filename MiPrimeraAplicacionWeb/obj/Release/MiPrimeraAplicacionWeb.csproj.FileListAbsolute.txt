@@ -77,3 +77,4 @@ C:\Users\marti\source\repos\MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb\obj\Re
 C:\Users\marti\source\repos\MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb\obj\Release\MiPrimeraAplicacionWeb.csproj.CopyComplete
 C:\Users\marti\source\repos\MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb\obj\Release\MiPrimeraAplicacionWeb.dll
 C:\Users\marti\source\repos\MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb\obj\Release\MiPrimeraAplicacionWeb.pdb
+C:\Users\marti\source\repos\MiPrimeraAplicacionWeb\MiPrimeraAplicacionWeb\obj\Release\MiPrimeraAplicacionWeb.csproj.CoreCompileInputs.cache

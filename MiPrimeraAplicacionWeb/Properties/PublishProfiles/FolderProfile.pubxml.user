@@ -22,7 +22,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>11/28/2018 13:04:36</publishTime>
     </File>
     <File Include="bin/es/System.Web.Mvc.resources.dll">
-      <publishTime>11/28/2018 13:00:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/es/System.Web.Razor.resources.dll">
       <publishTime>11/28/2018 13:00:22</publishTime>
@@ -43,10 +43,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/MiPrimeraAplicacionWeb.dll">
-      <publishTime>04/22/2020 16:36:24</publishTime>
+      <publishTime>07/16/2020 19:58:08</publishTime>
     </File>
     <File Include="bin/MiPrimeraAplicacionWeb.pdb">
-      <publishTime>04/22/2020 16:36:24</publishTime>
+      <publishTime>07/16/2020 19:58:08</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -205,82 +205,85 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>11/05/2019 18:01:47</publishTime>
+      <publishTime>05/11/2019 18:01:47</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>11/05/2019 18:01:47</publishTime>
+      <publishTime>05/11/2019 18:01:47</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>11/05/2019 18:01:47</publishTime>
+      <publishTime>05/11/2019 18:01:47</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>11/05/2019 18:01:47</publishTime>
+      <publishTime>05/11/2019 18:01:47</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
       <publishTime>04/15/2020 17:14:41</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>11/05/2019 18:01:47</publishTime>
+      <publishTime>05/11/2019 18:01:47</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>11/22/2019 17:25:19</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>11/05/2019 17:28:45</publishTime>
+      <publishTime>05/11/2019 17:28:45</publishTime>
     </File>
     <File Include="Models/BDPasajes.edmx.diagram">
       <publishTime>04/14/2020 20:37:39</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>11/05/2019 18:01:46</publishTime>
+      <publishTime>05/11/2019 18:01:46</publishTime>
+    </File>
+    <File Include="Scripts/EsPar.js">
+      <publishTime>04/27/2020 22:33:05</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.js">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.min.js">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.min.map">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.slim.js">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.slim.min.js">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.slim.min.map">
-      <publishTime>11/05/2019 18:01:48</publishTime>
+      <publishTime>05/11/2019 18:01:48</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.8.3.js">
-      <publishTime>11/05/2019 18:01:50</publishTime>
+      <publishTime>05/11/2019 18:01:50</publishTime>
     </File>
     <File Include="Scripts/prueba.js">
-      <publishTime>04/03/2020 17:55:37</publishTime>
+      <publishTime>03/04/2020 17:55:37</publishTime>
     </File>
     <File Include="Views/Automovil/Index.cshtml">
       <publishTime>01/15/2020 11:19:21</publishTime>
@@ -301,10 +304,13 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>04/21/2020 17:42:24</publishTime>
     </File>
     <File Include="Views/Cliente/Index.cshtml">
-      <publishTime>04/03/2020 17:53:51</publishTime>
+      <publishTime>03/04/2020 17:53:51</publishTime>
+    </File>
+    <File Include="Views/Empleado/Agregar.cshtml">
+      <publishTime>04/24/2020 20:06:12</publishTime>
     </File>
     <File Include="Views/Empleado/Index.cshtml">
-      <publishTime>04/21/2020 15:35:17</publishTime>
+      <publishTime>04/24/2020 16:46:34</publishTime>
     </File>
     <File Include="Views/InfoPersonal/Crear.cshtml">
       <publishTime>04/15/2020 17:30:33</publishTime>
@@ -313,37 +319,49 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>04/14/2020 18:06:12</publishTime>
     </File>
     <File Include="Views/Lugar/Adicionar.cshtml">
-      <publishTime>02/18/2020 15:25:44</publishTime>
+      <publishTime>04/27/2020 20:00:28</publishTime>
+    </File>
+    <File Include="Views/Lugar/Editar.cshtml">
+      <publishTime>04/27/2020 20:14:42</publishTime>
     </File>
     <File Include="Views/Lugar/Index.cshtml">
-      <publishTime>02/18/2020 10:29:21</publishTime>
+      <publishTime>04/27/2020 22:30:37</publishTime>
     </File>
     <File Include="Views/Marca/Adicionar.cshtml">
       <publishTime>02/19/2020 15:45:09</publishTime>
     </File>
+    <File Include="Views/Marca/Editar.cshtml">
+      <publishTime>04/27/2020 16:53:14</publishTime>
+    </File>
     <File Include="Views/Marca/Index.cshtml">
-      <publishTime>01/15/2020 18:33:31</publishTime>
+      <publishTime>04/27/2020 16:41:39</publishTime>
     </File>
     <File Include="Views/Repaso/Index.cshtml">
       <publishTime>01/14/2020 11:19:07</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/21/2020 17:13:47</publishTime>
+      <publishTime>04/27/2020 18:03:01</publishTime>
     </File>
     <File Include="Views/sucursal/Adicionar.cshtml">
       <publishTime>02/18/2020 16:49:51</publishTime>
     </File>
+    <File Include="Views/sucursal/Editar.cshtml">
+      <publishTime>06/01/2020 12:40:33</publishTime>
+    </File>
     <File Include="Views/sucursal/Index.cshtml">
-      <publishTime>02/18/2020 17:02:54</publishTime>
+      <publishTime>06/01/2020 12:37:24</publishTime>
+    </File>
+    <File Include="Views/Viaje/Index.cshtml">
+      <publishTime>04/24/2020 16:31:02</publishTime>
     </File>
     <File Include="Views/web.config">
-      <publishTime>11/05/2019 17:28:45</publishTime>
+      <publishTime>05/11/2019 17:28:45</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>11/05/2019 18:01:39</publishTime>
+      <publishTime>05/11/2019 18:01:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/22/2020 16:36:24</publishTime>
+      <publishTime>07/16/2020 19:58:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

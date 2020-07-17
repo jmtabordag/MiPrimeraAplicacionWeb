@@ -17,6 +17,7 @@
             <td>@Html.LabelFor(p => Model[0].direccion)</td>
             <td>@Html.LabelFor(p => Model[0].email)</td>
             <td>@Html.LabelFor(p => Model[0].fechaapertura)</td>
+            <td>Operaciones</td>
 
         </tr>
 
@@ -34,6 +35,12 @@
             <td>@item.direccion</td>
             <td>@item.email</td>
             <td>@item.fechaapertura</td>
+            <td>
+
+                @Html.ActionLink(" ", "Editar","Sucursal", new { id = item.iidsucursal }, new { @class = "glyphicon glyphicon-edit btn btn-primary" })
+                @Html.ActionLink(" ", "Eliminar", "Sucursal", new { id = item.iidsucursal }, new { @class = "glyphicon glyphicon-trash btn btn-primary" })
+
+            </td>
         </tr>
             }
 
@@ -41,4 +48,6 @@
        
     </tbody>
 </table>
+
+
 

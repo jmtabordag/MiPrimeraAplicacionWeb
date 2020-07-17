@@ -15,7 +15,7 @@ namespace MiPrimeraAplicacionWeb.Controllers
         
 
         
-        // GET: Bus Vehiculo
+        // GET: Bus
         public ActionResult Index()
         {
 
